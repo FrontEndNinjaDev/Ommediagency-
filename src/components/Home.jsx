@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 
 import { FaPlay } from "react-icons/fa";
-import Logo from "../assets/IMG_0930.JPEG.jpg";
+import Logo from "../assets/IMG_0930.JPEG-removebg-preview.png";
 import Women from "../assets/heroImage.jpg";
 import ChatBox from "./ChatBox";
 import SocialMedia from "./SocialMedia";
@@ -20,7 +20,7 @@ import About from "./About";
 export default function HomePage() {
   return (
     <div>
-      <div className="flex flex-col md:flex-row items-center justify-between p-6 md:p-16 bg-gradient-to-br from-[#f1f4ff] to-[#ffffff] dark:from-[#0f172a] dark:to-[#1e293b] transition-colors  mx-10 mb-10 mt-10 ">
+      <div className="flex flex-col md:flex-row items-center justify-between p-6 md:p-16  transition-colors  bg-white dark:bg-[#0f172a] mx-10 mb-10 mt-10 ">
         <div className="md:w-1/2 space-y-6">
           <div className="inline-block bg-orange-100 text-orange-600 px-4 py-1 rounded-full text-sm font-semibold dark:bg-orange-300 dark:text-orange-800">
             Welcome To OmmediaAgency
@@ -38,7 +38,7 @@ export default function HomePage() {
             India
           </h1>
           <div className="flex items-center space-x-2 mt-4">
-            <img src={Logo} alt="Influencers" width={100} height={40} />
+            <img src={Logo} alt="Influencers" width={100} height={40}  />
             <p className="text-sm font-medium text-gray-800 dark:text-gray-300">
               5658+ Top Influencers Connected With Us
             </p>
@@ -82,11 +82,51 @@ export default function HomePage() {
             className="relative z-10 w-[400px] h-[400px] object-cover rounded-full"
           />
 
-          <FaFacebookF className="absolute -top-6 -left-6 w-10 h-10 text-blue-600 bg-white dark:bg-gray-800 rounded-full p-2 shadow z-10 cursor-pointer" />
-          <FaYoutube className="absolute top-1/2 -left-4 w-10 h-10 text-red-600 bg-white dark:bg-gray-800 rounded-full p-2 shadow z-10 cursor-pointer" />
-          <FaInstagram className="absolute top-1/3 right-0 w-10 h-10 text-pink-600 bg-white dark:bg-gray-800 rounded-full p-2 shadow z-10 cursor-pointer" />
-          <FaTwitter className="absolute bottom-1/4 right-8 w-10 h-10 text-blue-400 bg-white dark:bg-gray-800 rounded-full p-2 shadow z-10 cursor-pointer" />
-          <FaTiktok className="absolute bottom-2 left-1/2 w-10 h-10 text-black dark:text-white bg-white dark:bg-gray-800 rounded-full p-2 shadow transform -translate-x-1/2 z-20 cursor-pointer" />
+        <a
+  href="https://www.facebook.com/yourpage" // Replace with your actual link
+  target="_blank"
+  rel="noopener noreferrer"
+  className="absolute -top-6 -left-6 z-10"
+>
+  <FaFacebookF className="w-10 h-10 text-blue-600 bg-white dark:bg-gray-800 rounded-full p-2 shadow cursor-pointer" />
+</a>
+
+<a
+  href="https://www.youtube.com/yourchannel" // Replace with your actual link
+  target="_blank"
+  rel="noopener noreferrer"
+  className="absolute top-1/2 -left-4 z-10"
+>
+  <FaYoutube className="w-10 h-10 text-red-600 bg-white dark:bg-gray-800 rounded-full p-2 shadow cursor-pointer" />
+</a>
+
+<a
+  href="https://www.instagram.com/ommediagency.in/?hl=en"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="absolute top-1/3 right-0 z-10"
+>
+  <FaInstagram className="w-10 h-10 text-pink-600 bg-white dark:bg-gray-800 rounded-full p-2 shadow cursor-pointer" />
+</a>
+
+<a
+  href="https://twitter.com/yourprofile" // Replace with your actual link
+  target="_blank"
+  rel="noopener noreferrer"
+  className="absolute bottom-1/4 right-8 z-10"
+>
+  <FaTwitter className="w-10 h-10 text-blue-400 bg-white dark:bg-gray-800 rounded-full p-2 shadow cursor-pointer" />
+</a>
+
+<a
+  href="https://www.tiktok.com/@yourprofile" // Replace with your actual link
+  target="_blank"
+  rel="noopener noreferrer"
+  className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-20"
+>
+  <FaTiktok className="w-10 h-10 text-black dark:text-white bg-white dark:bg-gray-800 rounded-full p-2 shadow cursor-pointer" />
+</a>
+
 
           <div className="absolute top-0 right-0 bg-orange-100 dark:bg-orange-300 text-orange-600 dark:text-orange-800 px-4 py-2 rounded-xl shadow text-sm z-20">
             180+

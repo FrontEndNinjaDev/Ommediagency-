@@ -1,6 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useTheme } from "./contextApi/ThemeContext";
 import { useState, useEffect } from "react";
+import Logo from "../assets/IMG_0930.JPEG-removebg-preview.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,13 +26,23 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="dark:bg-gray-800 bg-white shadow-md top-5 sticky z-50 mb-5 mx-4 sm:mx-10 rounded-sm ">
+    <nav className="dark:bg-gray-800 bg-white shadow-md top-5 sticky z-50 mb-5 mx-4 sm:mx-10 rounded-lg ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
-              <NavLink to="/">OmmediaAgency</NavLink>
+          <div className="flex items-center gap-4 flex-wrap sm:flex-nowrap">
+            <img
+              src={Logo}
+              alt="Influencers"
+              width={60}
+              height={60}
+              className="object-contain"
+            />
+
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white">
+              <NavLink to="/" className="hover:underline">
+                OmmediaAgency
+              </NavLink>
             </h1>
           </div>
 

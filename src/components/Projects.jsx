@@ -9,6 +9,7 @@ import {
 import BusinessBanner from "../assets/gold-bull-backgrounds-graphics-elements-related-financial-sector.jpg";
 
 import ProjectsBanner from "../assets/banner.jpg";
+import ClientSection from "./ClientSection";
 
 const Projects = () => {
   return (
@@ -147,6 +148,7 @@ const Projects = () => {
           </p>
         </div>
       </section>
+      <ClientSection/>
     </div>
   );
 };

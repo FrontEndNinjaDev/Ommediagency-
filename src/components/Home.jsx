@@ -21,7 +21,7 @@ import InfluencerGrid from "./InfluencerGrid";
 export default function HomePage() {
   return (
     <div>
-      <div className="flex flex-col md:flex-row items-center justify-between p-6 md:p-16 transition-colors bg-white dark:bg-[#0f172a] mx-10 mb-10 mt-10  -gray-300 dark:-gray-700 rounded-lg shadow-md">
+      <div className="flex flex-col md:flex-row items-center justify-between p-6 md:p-16 transition-colors bg-white dark:bg-[#0f172a] mb-10 mt-10  -gray-300 dark:-gray-700 rounded-lg shadow-md">
         {/* Left Content Section */}
         <div className="md:w-1/2 space-y-6  -gray-200 dark:-gray-700 p-6 rounded-lg">
           {/* Welcome Badge */}

@@ -46,7 +46,7 @@ export default function HomePage() {
           </div>
 
           {/* Influencer Stats */}
-          <div className="flex items-center space-x-2 mt-4  -gray-300 dark:-gray-600 p-3 rounded-md">
+          <div className="flex items-center space-x-2 mt-4  p-3  border-red-500 border bg-green-200  dark:bg-gray-900  rounded-md">
             <img src={Logo} alt="Influencers" width={100} height={40} />
             <p className="text-sm font-medium text-gray-800 dark:text-gray-300">
               5658+ Top Influencers Connected With Us

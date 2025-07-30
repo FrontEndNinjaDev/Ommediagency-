@@ -30,20 +30,16 @@ export default function HomePage() {
           </div>
 
           {/* Heading */}
-          <div className="border border-red-500 dark:bg-gray-900 p-6 rounded-lg shadow-md bg-green-200">
-            <h1 className="text-4xl md:text-6xl font-bold text-black dark:text-white pl-4">
-              Best{" "}
-              <span className="text-blue-600 dark:text-blue-400">DIGITAL</span>
-              <br />
-              Marketing{" "}
-              <span className="text-purple-600 dark:text-purple-400">
-                AGENCY
-              </span>{" "}
-              in
-              <br />
-              India
-            </h1>
-          </div>
+          <div className="border border-red-500 dark:bg-gray-900 bg-green-200 px-4 py-6 md:p-6 rounded-lg shadow-md">
+  <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-bold text-black dark:text-white leading-snug text-center md:text-left">
+    <div>
+      Best <span className="text-blue-600 dark:text-blue-400">DIGITAL</span> Marketing{" "}
+      <span className="text-purple-600 dark:text-purple-400">AGENCY</span>
+    </div>
+    <div>in India</div>
+  </h1>
+</div>
+
 
           {/* Influencer Stats */}
           <div className="flex items-center space-x-2 mt-4  p-3  border-red-500 border bg-green-200  dark:bg-gray-900  rounded-md">

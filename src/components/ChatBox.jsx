@@ -106,6 +106,7 @@ export default function ChatBox() {
               </p>
             </div>
           </div>
+          
 
           <div className="flex items-start gap-3">
             <FaThumbsUp className="text-purple-400 mt-1 text-lg" />

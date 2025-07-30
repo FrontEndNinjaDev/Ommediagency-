@@ -21,16 +21,16 @@ import InfluencerGrid from "./InfluencerGrid";
 export default function HomePage() {
   return (
     <div>
-      <div className="flex flex-col md:flex-row items-center justify-between p-6 md:p-16 transition-colors bg-white dark:bg-[#0f172a] mx-10 mb-10 mt-10 border border-gray-300 dark:border-gray-700 rounded-lg shadow-md">
+      <div className="flex flex-col md:flex-row items-center justify-between p-6 md:p-16 transition-colors bg-white dark:bg-[#0f172a] mx-10 mb-10 mt-10  -gray-300 dark:-gray-700 rounded-lg shadow-md">
         {/* Left Content Section */}
-        <div className="md:w-1/2 space-y-6 border border-gray-200 dark:border-gray-700 p-6 rounded-lg">
+        <div className="md:w-1/2 space-y-6  -gray-200 dark:-gray-700 p-6 rounded-lg">
           {/* Welcome Badge */}
-          <div className="inline-block bg-orange-100 text-orange-600 px-4 py-1 rounded-full text-sm font-semibold dark:bg-orange-300 dark:text-orange-800 border border-orange-300 dark:border-orange-500">
+          <div className="inline-block bg-orange-100 text-orange-600 px-4 py-1 rounded-full text-sm font-semibold dark:bg-orange-300 dark:text-orange-800  -orange-300 dark:-orange-500">
             Welcome To OmmediaAgency
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl md:text-6xl font-bold text-black dark:text-white border-l-4 border-blue-500 pl-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-black dark:text-white -l-4 -blue-500 pl-4">
             Best{" "}
             <span className="text-blue-600 dark:text-blue-400">DIGITAL</span>
             <br />
@@ -44,7 +44,7 @@ export default function HomePage() {
           </h1>
 
           {/* Influencer Stats */}
-          <div className="flex items-center space-x-2 mt-4 border border-gray-300 dark:border-gray-600 p-3 rounded-md">
+          <div className="flex items-center space-x-2 mt-4  -gray-300 dark:-gray-600 p-3 rounded-md">
             <img src={Logo} alt="Influencers" width={100} height={40} />
             <p className="text-sm font-medium text-gray-800 dark:text-gray-300">
               5658+ Top Influencers Connected With Us
@@ -54,13 +54,13 @@ export default function HomePage() {
           {/* Call to Action Link */}
           <a
             href="#"
-            className="text-blue-600 dark:text-blue-400 font-semibold text-sm underline border-b border-blue-400 pb-1 inline-block"
+            className="text-blue-600 dark:text-blue-400 font-semibold text-sm underline -b -blue-400 pb-1 inline-block"
           >
             PROMOTE YOUR BUSINESS THROUGH CELEBRITY
           </a>
 
           {/* Description Paragraph */}
-          <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed border border-gray-200 dark:border-gray-700 p-4 rounded-md">
+          <p className="text-gray-700 dark:text-gray-300 text-sm leading-relaxed  -gray-200 dark:-gray-700 p-4 rounded-md">
             Ommediagency is the best influencer marketing agency in India which
             provides the top influencer marketing platform to help brands /
             visionary marketers leverage social media influencers’ content in
@@ -165,7 +165,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="md:col-span-1 border-l border-white pl-6">
+          <div className="md:col-span-1 -l -white pl-6">
             <div className="flex items-center gap-2 mb-2">
               <FaClock className="text-orange-400" size={20} />
               <h3 className="text-lg font-semibold">Save Your Time</h3>

@@ -30,18 +30,20 @@ export default function HomePage() {
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl md:text-6xl font-bold text-black dark:text-white -l-4 -blue-500 pl-4">
-            Best{" "}
-            <span className="text-blue-600 dark:text-blue-400">DIGITAL</span>
-            <br />
-            Marketing{" "}
-            <span className="text-purple-600 dark:text-purple-400">
-              AGENCY
-            </span>{" "}
-            in
-            <br />
-            India
-          </h1>
+          <div className="border border-red-500 dark:bg-gray-900 p-6 rounded-lg shadow-md bg-green-200">
+            <h1 className="text-4xl md:text-6xl font-bold text-black dark:text-white pl-4">
+              Best{" "}
+              <span className="text-blue-600 dark:text-blue-400">DIGITAL</span>
+              <br />
+              Marketing{" "}
+              <span className="text-purple-600 dark:text-purple-400">
+                AGENCY
+              </span>{" "}
+              in
+              <br />
+              India
+            </h1>
+          </div>
 
           {/* Influencer Stats */}
           <div className="flex items-center space-x-2 mt-4  -gray-300 dark:-gray-600 p-3 rounded-md">
@@ -149,7 +151,7 @@ export default function HomePage() {
           </div>
         </div>
       </div>
-         <InfluencerGrid/>
+      <InfluencerGrid />
       <section className="bg-[#1F144A] text-white px-6 py-12 rounded-3xl mx-auto max-w-7xl mb-10">
         <div className="grid md:grid-cols-4 gap-6 items-stretch text-left">
           <div className="md:col-span-1">

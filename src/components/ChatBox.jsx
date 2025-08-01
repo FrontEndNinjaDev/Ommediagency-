@@ -65,7 +65,7 @@ export default function ChatBox() {
       {/* Right Text Content */}
       <div className="w-full lg:w-1/2 text-black dark:text-white">
         <button className="bg-orange-100 dark:bg-orange-300 text-orange-500 dark:text-orange-800 px-4 py-1 rounded-full mb-4 text-sm font-semibold">
-          About OmmediaAgency
+          About ommediagency
         </button>
 
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -106,7 +106,6 @@ export default function ChatBox() {
               </p>
             </div>
           </div>
-          
 
           <div className="flex items-start gap-3">
             <FaThumbsUp className="text-purple-400 mt-1 text-lg" />

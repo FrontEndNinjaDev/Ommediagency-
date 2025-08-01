@@ -34,14 +34,14 @@ const Navbar = () => {
             <img
               src={Logo}
               alt="Influencers"
-              width={60}
-              height={60}
+              width={100}
+              height={100}
               className="object-contain"
             />
 
-            <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white">
+            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#c8a85b] to-[#f7e78e] bg-clip-text text-transparent">
               <NavLink to="/" className="hover:underline">
-                OmmediaAgency
+                OmMediagency
               </NavLink>
             </h1>
           </div>
